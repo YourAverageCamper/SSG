@@ -1,0 +1,33 @@
+name: HungerGames
+version: 1.0
+description: Hunger Games plugin! Fight to the death!
+main: me.zeus.HungerGames.HG
+commands:
+  hungergames:
+    description: Core hunger games command
+    syntax: /hungergames [args]
+    aliases: [hg, hgame]
+  addspawn:
+    description: Adds a spawn location
+    syntax: /setspawn
+  delspawn:
+    description: Deletes a spawn location
+    syntax: /deletespawn [id]
+  setlobby:
+    description: Sets lobby location
+    syntax: /setlobby
+  vote:
+    description: Vote for next map
+    syntax: /vote [id]
+  gamble:
+    description: Bet on a person
+    syntax: /gamble <name> <amt>
+  points:
+    description: check points
+    syntax: /points
+  deathmatch:
+    description: Force death match
+    syntax: /deathmatch
+  spectate:
+    description: Spectate a player
+    syntax: /spectate [args]

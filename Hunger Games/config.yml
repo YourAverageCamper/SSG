@@ -1,0 +1,75 @@
+#################################################
+# Thanks for purchasing the Hunger Games Plugin!#
+#################################################
+#
+# All times are in seconds
+#
+#################################################
+#
+# Time the grace period lasts (0 = none)
+grace-period: 15
+#
+# How long do chests take to regen? Default 10 minutes
+chest-regen-time: 600
+#
+# How long after the game is finished, does the server shutdown?
+shutdown-time: 5
+#
+# Message when grace period is started
+grace-period-message: '&9Grace period is activated! (PVP off)'
+#
+# Message when grace period has ended
+grace-period-ended-message: '&cGrace period is over! May the odds be ever in your favor!'
+#
+# The message when an op joins
+staff-join-message: '&4&lA staff member joined the server.'
+#
+# Time before the game starts
+countdown-time: 15
+#
+# IDs of all blocks which can be broken:
+breakable-blocks:
+- 18
+#
+# Start countdown automatically?
+auto-start: false
+# 
+# Time to vote for maps
+vote-time: 60
+#
+# Lobby location
+lobby:
+    world: world
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+#
+# List of worlds which can be chosen
+worlds:
+- world
+- world_nether
+- world_the_end
+#
+# The minimum players needed to start
+minimum-players: 4
+#
+# Maps descriptions and stuff
+maps:
+    world:
+        name: World
+        description: The nice world
+        authors: Notch and Jebs
+        link: http://twitch.tv/brittanymoore
+    world2:
+        name: World 2
+        description: '&eThis is yellow'
+        authors: Joe and Bill
+        link: http://twitch.tv/brittanymoore
+#
+#
+
+
+
+
